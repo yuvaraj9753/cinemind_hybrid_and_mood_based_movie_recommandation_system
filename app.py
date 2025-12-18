@@ -1,4 +1,4 @@
-# CineMind: Hybrid & Mood-Based Movie Recommandation System
+# CineMind: Hybrid & Mood-Based Movie Recommendation System
 import streamlit as st
 import pickle
 import pandas as pd
@@ -190,7 +190,7 @@ def show_movie_grid(df, n=10):
 
 
 # HEADER & MENU
-st.title("🎬 CineMind: Hybrid & Mood-Based Movie Recommandation System")
+st.title("🎬 CineMind: Hybrid & Mood-Based Movie Recommendation System")
 menu = ["Recommend", "Hybrid ", "Trending","Top Rated","Popular","Mood","Watchlist"]
 menu_cols = st.columns(len(menu))
 for col, name in zip(menu_cols, menu):
@@ -275,3 +275,4 @@ st.sidebar.write("""
 • Watchlist Feature  
 • Mood Based Recommendation
 """)
+
